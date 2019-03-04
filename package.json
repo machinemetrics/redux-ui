@@ -31,18 +31,18 @@
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.4.1",
     "jsdom": "^7.2.1",
-    "mocha": "^2.3.4",
-    "react-dom": "15.5.0"
+    "mocha": "^2.3.4"
   },
   "dependencies": {
     "babel-register": "^6.6.0",
     "immutable": "^3.7.5",
     "invariant": "^2.2.0",
     "prop-types": "^15.5.7",
-    "react-redux": "^4.4.8 || ^5.0.4",
     "redux": "^3.0.4"
   },
   "peerDependencies": {
-    "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0",
+    "react-dom": "15.5.0 || ^16.0.0",
+    "react-redux": "^4.4.8 || ^5.0.4"
   }
 }
